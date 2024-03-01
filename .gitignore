@@ -1,0 +1,45 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Caches
+.cache/
+.idea/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Environments
+.env
+.venv
+venv/
+ENV/
+
+# IDEs
+*.sublime-project
+*.sublime-workspace
+.vscode/
+.idea/
+
+# Python-specific
+*.pyc
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# Temporary files
+*.bak
+*.swp
+*~
+
+# Dependency directories
+.env/
+node_modules/
+bower_components/
