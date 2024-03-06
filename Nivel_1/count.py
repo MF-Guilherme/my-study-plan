@@ -9,7 +9,7 @@ def counter(string):
     lowercase = 0
     special = 0
 
-    for i in word:
+    for i in string:
         if ord(i) >= 48 and ord(i) <= 57:
             numbers += 1
         elif ord(i) >= 65 and ord(i) <= 90:
@@ -18,11 +18,7 @@ def counter(string):
              lowercase += 1
         else:
             special += 1
-    print(f'Upper case letters : {uppercase}\n'
+    return (f'Upper case letters : {uppercase}\n'
                  f'Lower case letters : {lowercase}\n'
                  f'Numbers : {numbers}\n'
                  f'Special Characters : {special}')
-
-
-word = '*GeEkS4GeEkS*'
-counter(word)
